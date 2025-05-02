@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  background-color:#020817;
+}
+
+
+/* Menu de Navegação */
+nav{
+  display: flex;
+  position: fixed;
+  justify-content: right;
+
+  margin-left: -60px;
+  background: rgba(2, 8, 23, 0.5);
+  height: 50px;
+  width: 100%;
+}
+
+a{
+  font-family: 'Jaro';
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(255, 249, 249);
+  
+}
+
+i{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+span{
+margin: auto;
+margin-left: 100px;
+font-size: 28px;
+font-family: 'Jaro';
+color: #0270FF;
+}
+/* Fim do Menu de Navegação */
+
+/* Seção Home */
+.content_home{
+  display: flex;
+  margin-top: 5px ;
+  justify-content: center;
+  font-family: 'Jaro';
+}
+
+.content_home h5,h3{
+  color: white;
+}
+
+.content_home u{
+  color:#0270FF
+}
