@@ -11,16 +11,13 @@ body{
 
 
 /* Menu de Navegação */
-nav {
+nav{
   display: flex;
-  justify-content: flex-end; /* Alinha os itens à direita */
-  align-items: center;        /* Centraliza verticalmente */
   height: 50px;
   width: 100%;
   background: rgba(2, 8, 23, 0.5);
   position: fixed;
-  top: 0;
-  right: 20px;
+  top: 10px;
 }
 
 a {
@@ -39,8 +36,10 @@ i {
   padding-left: 10px;
 }
 
-span {
-  margin-right: auto; /* Joga o logo (ou GG.) para a esquerda */;
+/*Logo*/
+span{
+  nav-index: auto;
+  margin-right: 75%; 
   font-size: 28px;
   font-family: 'Jaro', sans-serif;
   color: #0270FF;
@@ -48,10 +47,10 @@ span {
 /* Fim do Menu de Navegação */
 
 /* Seção Home */
-.content_home{
+section#home{
+  margin:auto;
+  width:300px;
   margin-top: 20%;
-  margin-left: 35%;
-  justify-content: center;
   font-family: 'Jaro';
 }
 
@@ -71,3 +70,36 @@ span {
   color:#0270FF
 }
 /* Fim Seção Home */
+
+
+/* Seção Sobre mim & Div */
+section#aboutme{
+  color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 30%;
+  width: 70%;
+  font-family: 'Jaro';
+}
+
+.content_aboutme{
+  color: #dddddd;
+  margin: auto;
+  width: 70%px;
+}
+
+/* Seção Skills */
+section#skills{
+  color: rgb(255, 255, 255);
+  padding-top: 30%;
+  margin: auto;
+  width: 70%;
+  font-family: 'Jaro';
+}
+
+/* Seção Projetos */
+
+
+/* Seção Contato */
+
+
+/* Rodapé ( footer) */
