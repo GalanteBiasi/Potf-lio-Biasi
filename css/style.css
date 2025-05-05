@@ -11,39 +11,52 @@ body{
 
 
 /* Menu de Navegação */
-nav{
+.Menu{
   display: flex;
-  height: 50px;
-  width: 100%;
-  background: rgba(2, 8, 23, 0.5);
   position: fixed;
-  top: 10px;
+  top: 0;
+  justify-content:space-between;
+  width: 100%;
+  background: rgba(2, 8, 23, 0.576);
+  
 }
 
-a {
-  padding: 10px;
+.nav_links {
+  display: flex;
   text-decoration: none;
   font-family: 'Jaro', sans-serif;
-  color: rgb(255, 249, 249);
+  margin-right: 20px;
 }
 
-a:hover{
+.nav_links a {
+  display: flex;
+  text-decoration: none;
+  font-family: 'Jaro', sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.nav_links a:hover {
   color: #2d80ec;
 }
 
 i {
-  margin-top: 10px;
   padding-left: 10px;
 }
 
 /*Logo*/
-span{
-  nav-index: auto;
-  margin-right: 75%; 
+span  {
+  display: flex;
   font-size: 28px;
   font-family: 'Jaro', sans-serif;
+  margin-left: 60px;
   color: #0270FF;
 }
+
+/*Dark/Light Mode*/
+
+  
+
 /* Fim do Menu de Navegação */
 
 /* Seção Home */
