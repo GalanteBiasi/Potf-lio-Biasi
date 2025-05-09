@@ -13,7 +13,6 @@ body{
 /* Menu de Navegação */
 .Menu{
   display: flex;
-  position: fixed;
   justify-content:space-between;
   width: 100%;
   top: 0;
@@ -70,10 +69,9 @@ i {
 
 /* Seção Home Div*/
 .content_home{
-  margin: auto;
   justify-items: center;
   font-family: 'Jaro';
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 
