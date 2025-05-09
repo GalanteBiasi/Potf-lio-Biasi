@@ -14,22 +14,20 @@ body{
 .Menu{
   display: flex;
   position: fixed;
-  top: 0;
   justify-content:space-between;
   width: 100%;
+  top: 0;
   background: rgba(2, 8, 23, 0.576);
   
 }
 
 .nav_links {
-  display: flex;
   text-decoration: none;
   font-family: 'Jaro', sans-serif;
   margin-right: 20px;
 }
 
 .nav_links a {
-  display: flex;
   text-decoration: none;
   font-family: 'Jaro', sans-serif;
   color: rgb(255, 255, 255);
@@ -68,26 +66,23 @@ i {
 
 /* Fim do Menu de Navegação */
 
-/* Seção Home */
-section#home{
-  margin:auto;
-  display: flex;
-  width:600px;
-  margin-top: 25%;
+
+
+/* Seção Home Div*/
+.content_home{
+  margin: auto;
+  justify-items: center;
   font-family: 'Jaro';
+  margin-top: 25%;
 }
 
-.content_home h2{
-  display: flex;
-  margin: auto;
 
+.content_home h2{
   font-family: 'Courier New', Courier, monospace;
   color: gray;
 }
 
 .content_home h3{
-  display: flex;
-  margin: auto;
   gap: 5px;
   color: white;
   font-size: 30px;
@@ -101,19 +96,13 @@ section#home{
 }
 
 .content_home h5{
-  display: flex;
-  margin: auto;
-  margin-bottom: 70px;
-  margin-left: 50px;
-  color: white;
+  color: rgb(252, 252, 252);
   font-size: 20px;
   
 }
 
 
-
-
-/* Fim Seção Home */
+/* Fim Seção Home & DIV */
 
 
 /* Seção Sobre mim & Div */
