@@ -11,24 +11,20 @@ body{
 
 main{
   width: 120vh;
-  height: 50%;
+  height: 0%;
   margin: auto;
 }
 
 /* Menu de Navegação */
-.Menu{
-  display: flex;
-  justify-content:space-between;
-  position: sticky;
-  width: 100%;
-  top: 10px;
+.Menu_Nav{
   background: rgba(2, 8, 23, 0.576);
   
 }
 
 .nav_links {
-  display: block;
+  display: flex;
   text-decoration: none;
+  justify-items;
   font-family: 'Jaro', sans-serif;
   margin-right: 20px;
 }
@@ -49,26 +45,18 @@ i {
 }
 
 /*Logo*/
-.logo {
+.logo_GG {
   display: flex;
+  text-decoration: none;
   font-size: 28px;
   font-family: 'Jaro', sans-serif;
-  margin-left: 60px;
+  margin-left: 15%;
   color: #0270FF;
 }
 
-/*Dark-Light Mode*/
-.material-symbols-outlined {
-  color: #0270FF;
-  margin: auto;
+.logo_item{
   
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 4000,
-  'GRAD' 0,
-  'opsz' 40
 }
-
 
 /* Fim do Menu de Navegação */
 
@@ -78,19 +66,20 @@ i {
 section#home{
   width: 900px;
   font-family: 'Jaro';
-  padding-top: 30%;
-  padding-bottom: 60%;
+  padding-top: 35%;
+
 }
 
-section#home h2{
+section#home p{
+  font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
   color: gray;
 }
 
-section#home h3{
+section#home h1{
   gap: 5px;
   color: white;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 section#home u{
@@ -98,9 +87,9 @@ section#home u{
   padding-right: 20px;
 }
 
-section#home h5{
-  color: rgb(252, 252, 252);
-  font-size: 20px;
+section#home span{
+  color:#0270FF;
+  font-size: 24px;
 }
 
 
@@ -109,25 +98,42 @@ section#home h5{
 
 /* Seção Sobre mim & Div */
 
-.content_aboutme{
+section#aboutme{
+  width: 900px;
+  margin-top: 40%;
   color: rgb(255, 255, 255);
-  margin: auto;
-  padding-bottom: 30%;
   font-family: 'Jaro';
 }
 
 /* Seção Skills */
-.content_skills{
+section#skills{
+  width: 100px;
+  height: 200px;
+  margin-top: 70%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
 
 /* Seção Projetos */
-
+section#projects{
+  width: 900px;
+  margin-top: 70%;
+  margin-bottom: 20%;
+  padding-bottom: 60%;
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+}
 
 /* Seção Contato */
 
 
+/* Seção BOX dos Sections Links */
+.section_box{
+  border: 2px solid #57A3FF;
+  border-radius: 8px;
+  margin-top: 5rem;
+  padding: 5rem;
+}
 /* Rodapé ( footer) */
 footer{
   font-family:'Times New Roman', Times, serif;
