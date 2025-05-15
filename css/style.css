@@ -18,15 +18,19 @@ main{
 /* Menu de Navegação */
 .Menu_Nav{
   background: rgba(2, 8, 23, 0.576);
+  position: fixed;
+  display: flex;
+  margin-top: 15px;
   
+  left: 50%;
+  justify-content: space-between;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .nav_links {
-  display: flex;
-  text-decoration: none;
-  justify-items;
   font-family: 'Jaro', sans-serif;
-  margin-right: 20px;
+  margin-right: 15%;
 }
 
 .nav_links a {
@@ -40,23 +44,23 @@ main{
   color: #2d80ec;
 }
 
-i {
-  padding-left: 10px;
-}
+
 
 /*Logo*/
-.logo_GG {
+
+.logo_item {
   display: flex;
-  text-decoration: none;
   font-size: 28px;
   font-family: 'Jaro', sans-serif;
   margin-left: 15%;
   color: #0270FF;
 }
 
-.logo_item{
-  
+.logo_item a{
+  text-decoration: none;
 }
+
+
 
 /* Fim do Menu de Navegação */
 
