@@ -19,13 +19,10 @@ main{
 .Menu_Nav{
   background: rgba(2, 8, 23, 0.576);
   position: fixed;
-  display: flex;
-  margin-top: 15px;
-  
-  left: 50%;
+  display: inline-flex;
   justify-content: space-between;
-  transform: translateX(-50%);
   width: 100%;
+  top: 10;
 }
 
 .nav_links {
@@ -74,17 +71,24 @@ section#home{
 
 }
 
-section#home p{
-  font-size: 30px;
+section#home h1{
+  gap: 5px;
+  color: white;
+  font-size: 40px;
+}
+
+section#home h2{
+  font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
   color: gray;
 }
 
-section#home h1{
-  gap: 5px;
-  color: white;
-  font-size: 60px;
+section#home p{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(177, 175, 175);
+
 }
+
 
 section#home u{
   color:#0270FF;
@@ -93,7 +97,7 @@ section#home u{
 
 section#home span{
   color:#0270FF;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -104,16 +108,19 @@ section#home span{
 
 section#aboutme{
   width: 900px;
+  height: 600px;
   margin-top: 40%;
+  padding-top: 10%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
 
 /* Seção Skills */
 section#skills{
-  width: 100px;
-  height: 200px;
-  margin-top: 70%;
+  width: 900px;
+  height: 600px;
+  margin-top: 40%;
+  padding-top: 10%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
@@ -121,9 +128,9 @@ section#skills{
 /* Seção Projetos */
 section#projects{
   width: 900px;
-  margin-top: 70%;
-  margin-bottom: 20%;
-  padding-bottom: 60%;
+  height: 600px;
+  margin-top: 40%;
+  padding-top: 10%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
