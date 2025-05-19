@@ -17,9 +17,8 @@ main{
 
 /* Menu de Navegação */
 .Menu_Nav{
+  display: flex;
   background: rgba(2, 8, 23, 0.576);
-  position: fixed;
-  display: inline-flex;
   justify-content: space-between;
   width: 100%;
   top: 10;
@@ -64,12 +63,13 @@ main{
 
 
 /* Seção Home Div*/
-section#home{
-  width: 600px;
+.content_home{
+  display: flex;
+  justify-content: center;
+  margin-top: 35%;
   font-family: 'Jaro';
-  padding-top: 35%;
-
 }
+
 
 section#home h1{
   color: white;
@@ -106,7 +106,6 @@ section#home span{
   width: 500px;
   height: 400px;
   text-align: center;
-  float: right;
 }
 
 .my_profile img{
@@ -117,6 +116,7 @@ section#home span{
   color:#0270FF;
   text-decoration: none;
   font-family: 'Jaro';
+  padding: 5px;
 }
 
 .my_profile a:hover{
