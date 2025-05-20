@@ -4,24 +4,26 @@
     padding: 0;
 }
 
-
 body{
   background-color:#020817;
 }
 
 main{
   width: 120vh;
-  height: 0%;
   margin: auto;
 }
+
+
+
 
 /* Menu de Navegação */
 .Menu_Nav{
   display: flex;
-  background: rgba(2, 8, 23, 0.576);
+  position: fixed;
+  background: rgba(2, 8, 23, 0.9);
   justify-content: space-between;
   width: 100%;
-  top: 10;
+  padding-top: 10px;
 }
 
 .nav_links {
@@ -42,8 +44,8 @@ main{
 
 
 
-/*Logo*/
 
+/*Logo*/
 .logo_item {
   display: flex;
   font-size: 28px;
@@ -55,10 +57,8 @@ main{
 .logo_item a{
   text-decoration: none;
 }
-
-
-
 /* Fim do Menu de Navegação */
+
 
 
 
@@ -66,7 +66,7 @@ main{
 .content_home{
   display: flex;
   justify-content: center;
-  margin-top: 35%;
+  padding-top: 35%;
   font-family: 'Jaro';
 }
 
@@ -88,7 +88,6 @@ section#home p{
 
 }
 
-
 section#home u{
   color:#0270FF;
   padding-right: 20px;
@@ -101,15 +100,17 @@ section#home span{
 
 /* Fim Seção Home & DIV */
 
+
+
+
 /*Div Profile*/
 .my_profile{
   width: 500px;
-  height: 400px;
-  text-align: center;
+  justify-items: center
 }
 
 .my_profile img{
-  border-radius: 50px;
+  border-radius: 50px;  
 }
 
 .my_profile a{
@@ -122,40 +123,50 @@ section#home span{
 .my_profile a:hover{
   color:#57A3FF;
   transition-duration: 0.5s;
+  
 }
 
-/* Seção Sobre mim & Div */
+
+
+
+/*Div de Todas Seções do Menu*/
+.sections_general{
+  justify-items: center;
+}
+
+/* Seção - Sobre mim */
 
 section#aboutme{
   width: 900px;
   height: 600px;
   margin-top: 40%;
-  padding-top: 10%;
+  padding-top: 5%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
 
-/* Seção Skills */
+/* Seção - Skills */
 section#skills{
   width: 900px;
   height: 600px;
   margin-top: 40%;
-  padding-top: 10%;
+  padding-top: 5%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
 
-/* Seção Projetos */
+/* Seção - Projetos */
 section#projects{
   width: 900px;
   height: 600px;
   margin-top: 40%;
-  padding-top: 10%;
+  margin-bottom: 5%;
+  padding-top: 5%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
 }
 
-/* Seção Contato */
+
 
 
 /* Seção BOX dos Sections Links */
@@ -165,6 +176,10 @@ section#projects{
   margin-top: 5rem;
   padding: 5rem;
 }
+
+
+
+
 /* Rodapé ( footer) */
 footer{
   font-family:'Times New Roman', Times, serif;
@@ -172,7 +187,8 @@ footer{
   color:#000000;
   background-color:#2d80ec;
   width: 100%;
-  height: 65px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 footer p{
