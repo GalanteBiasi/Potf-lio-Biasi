@@ -70,6 +70,18 @@ main{
   font-family: 'Jaro';
 }
 
+section#home span{
+  color:#0270FF;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+section#home u{
+  
+  color:#0270FF;
+  padding-right: 20px;
+}
+
 .section_home{
   scroll-margin-top: 500px;
 }
@@ -90,18 +102,6 @@ section#home p{
   color: rgb(177, 175, 175);
 
 }
-
-section#home u{
-  
-  color:#0270FF;
-  padding-right: 20px;
-}
-
-section#home span{
-  color:#0270FF;
-  font-size: 20px;
-}
-
 /* Fim Seção Home & DIV */
 
 
@@ -133,6 +133,9 @@ section#home span{
 
 
 
+
+
+
 /*Classes de Todas Seções do Menu*/
 .sections_general{
   justify-items: center;
@@ -157,23 +160,83 @@ section#home span{
 
 
 
+
+
+
+
 /* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
-#aboutme h2{
-  margin-top: 25%;
-  margin-right: 20%;
-  width: 1200px;
-  padding-top: 20%;
-  color: rgb(255, 255, 255);
-  font-family: 'Jaro';
-  font-size: 35px;
-  line-height: 60px;
+
+#aboutme {
+  margin-left: 300px;
 }
 
-#aboutme p{
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(177, 175, 175);
-  line-height: 60px;
+#aboutme h2{
+  scroll-margin-top: 100px;
+  margin-top: 30%;
+  padding-top: 5%;
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
 }
+
+#aboutme h3{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center; /* alinha verticalmente ícone e texto */
+  gap: 10px; /* espaço entre o ícone e o texto */
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Div Sobre Mim */
+.content_biography{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  /* centraliza no eixo horizontal */
+  gap: 40px; /* espaço entre as duas sections */
+  margin-top: 40px; /* espaço abaixo do 'Sobre mim' */;
+}
+
+.content_biography h3{
+  display: flex;
+  align-items: center; /* alinha verticalmente ícone e texto */
+  gap: 10px; /* espaço entre o ícone e o texto */
+  font-size: 1.2rem;
+  color: white;
+}
+
+.section_firstbox_aboutme{
+  width: 400px;
+  height: 200px;
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 0rem;
+  padding: 2rem;
+}
+
+.education_icon{
+  color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section_secondbox_aboutme{
+  width: 400px;
+  height: 200px;
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 0rem;
+  padding: 2rem;
+}
+
+.experience_icon{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
 
 
 /* Seção - Skills */
