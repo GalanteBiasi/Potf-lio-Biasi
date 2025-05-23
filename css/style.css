@@ -167,7 +167,7 @@ section#home p{
 /* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
 
 #aboutme {
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 #aboutme h2{
@@ -186,6 +186,12 @@ section#home p{
   gap: 10px; /* espaço entre o ícone e o texto */
   font-size: 1.2rem;
   color: white;
+}
+
+#aboutme p{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(192, 191, 191);
+  padding-top: 10px;
 }
 
 /* Div Sobre Mim */
@@ -207,25 +213,41 @@ section#home p{
 
 .section_firstbox_aboutme{
   width: 400px;
-  height: 200px;
+  height: 100px;
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   margin-top: 0rem;
   padding: 2rem;
+}
+
+.section_firstbox_aboutme p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  text-align:start;
 }
 
 .education_icon{
   color: white;
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
+
+
 
 .section_secondbox_aboutme{
   width: 400px;
-  height: 200px;
+  height: 100px;
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   margin-top: 0rem;
   padding: 2rem;
+}
+
+.section_secondbox_aboutme p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  text-align:start;
 }
 
 .experience_icon{
