@@ -138,7 +138,8 @@ section#home p{
 
 /*Classes de Todas Seções do Menu*/
 .sections_general{
-  justify-items: center;
+  width: auto;
+  justify-content: center;
 }
 
 .underline_blue{
@@ -147,33 +148,16 @@ section#home p{
   color: #fafbfc;
 }
 
-/* Seção BOX dos Sections Links */
-.section_box{
-  border: 1px solid #57A3FF;
-  border-radius: 8px;
-  margin-top: 0rem;
-  padding: 5rem;
-  width: 900px;
-  height: 600px;
-}
-
-
-
-
-
-
-
-
 /* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
 
 #aboutme {
   margin-left: 400px;
+  scroll-margin-top: 100px;
+  margin-top: 18%;
+  padding-top: 5%;
 }
 
 #aboutme h2{
-  scroll-margin-top: 100px;
-  margin-top: 30%;
-  padding-top: 5%;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
@@ -191,7 +175,7 @@ section#home p{
 #aboutme p{
   font-family: 'Courier New', Courier, monospace;
   color: rgb(192, 191, 191);
-  padding-top: 10px;
+  margin-top: 20px;
 }
 
 /* Div Sobre Mim */
@@ -199,8 +183,8 @@ section#home p{
   display: flex;
   flex-direction: row;
   justify-content: center;  /* centraliza no eixo horizontal */
-  gap: 40px; /* espaço entre as duas sections */
-  margin-top: 40px; /* espaço abaixo do 'Sobre mim' */;
+  gap: 5%; /* espaço entre as duas sections */
+  margin-top: 5%;
 }
 
 .content_biography h3{
@@ -211,8 +195,10 @@ section#home p{
   color: white;
 }
 
+
+/* DIV EDUCATION */
 .section_firstbox_aboutme{
-  width: 400px;
+  width: 350px;
   height: 100px;
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
@@ -232,10 +218,10 @@ section#home p{
   font-family: 'Courier New', Courier, monospace;
 }
 
-
+/* DIV  EXPERIENCE */
 
 .section_secondbox_aboutme{
-  width: 400px;
+  width: 350px;
   height: 100px;
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
@@ -257,47 +243,32 @@ section#home p{
 
 
 
-
-
-
-
-/* Seção - Skills */
-section#skills{
+/* Div- Projetos */
+#projects {
+  margin-left: 400px;
   scroll-margin-top: 100px;
-  width: 900px;
-  height: 600px;
-  margin-top: 10%;
-  padding-top: 5%;
+  margin-top: 18%;
+}
+
+#projects h2{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
+  font-size: 30px;
 }
 
-section#skills h2{
-  font-family: 'Jaro';
-  font-style: normal;
-  font-size: 35px;
-  line-height: 60px;
-  color: white;
-}
-
-/* Seção - Projetos */
-section#projects{
+/* Div- Skills */
+#skills {
   scroll-margin-top: 100px;
-  width: 900px;
-  height: 600px;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin-left: 400px;
+  scroll-margin-top: 100px;
+  margin-top: 18%;
   padding-top: 5%;
+}
+
+#skills h2{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
-}
-
-section#projects h2{
-  font-family: 'Jaro';
-  font-style: normal;
-  font-size: 35px;
-  line-height: 60px;
-  color: white;
+  font-size: 30px;
 }
 
 /* Seção - Contatos */
