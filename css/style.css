@@ -130,6 +130,12 @@ section#home p{
   
 }
 
+.social_media {
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
 
 
 
@@ -151,7 +157,7 @@ section#home p{
 /* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
 
 #aboutme {
-  margin-left: 400px;
+  margin-left: 580px;
   scroll-margin-top: 100px;
   margin-top: 18%;
   padding-top: 5%;
@@ -245,7 +251,7 @@ section#home p{
 
 /* Div- Projetos */
 #projects {
-  margin-left: 400px;
+  margin-left: 580px;
   scroll-margin-top: 100px;
   margin-top: 18%;
 }
@@ -256,11 +262,17 @@ section#home p{
   font-size: 30px;
 }
 
+#projects p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  text-align: start;
+}
+
 /* Div- Skills */
 #skills {
   scroll-margin-top: 100px;
-  margin-left: 400px;
-  scroll-margin-top: 100px;
+  margin-left: 580px;
   margin-top: 18%;
   padding-top: 5%;
 }
@@ -271,19 +283,33 @@ section#home p{
   font-size: 30px;
 }
 
-/* Seção - Contatos */
-section#contact{
-  scroll-margin-top: 100px;
-  width: 1000px;
-  height: 200px;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  padding-top: 5%;
-  color: rgb(255, 255, 255);
-  font-family: 'Jaro';
+#skills p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  text-align: start;
 }
 
+/* Div - Contatos */
+#contact{
+  scroll-margin-top: 100px;
+  margin-left: 580px;
+  margin-top: 18%;
+  padding-top: 5%;
+}
 
+#contact h2{
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
+}
+
+#contact p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  text-align: start;
+}
 
 
 
@@ -294,6 +320,7 @@ footer{
   color:#000000;
   background-color:#2d80ec;
   width: 100%;
+  margin-top: 20%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
