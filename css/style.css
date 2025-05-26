@@ -157,7 +157,7 @@ section#home p{
 /* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
 
 #aboutme {
-  margin-left: 580px;
+  margin-left: 480px;
   scroll-margin-top: 100px;
   margin-top: 18%;
   padding-top: 5%;
@@ -186,15 +186,17 @@ section#home p{
 
 /* Div Sobre Mim */
 .content_biography{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;  /* centraliza no eixo horizontal */
-  gap: 5%; /* espaço entre as duas sections */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 20%;
+  margin-left: auto;
+  margin-right: 52%;
   margin-top: 5%;
+  gap: 100px;  
+
 }
 
 .content_biography h3{
-  display: flex;
   align-items: center; /* alinha verticalmente ícone e texto */
   gap: 10px; /* espaço entre o ícone e o texto */
   font-size: 1.2rem;
@@ -251,7 +253,7 @@ section#home p{
 
 /* Div- Projetos */
 #projects {
-  margin-left: 580px;
+  margin-left: 480px;
   scroll-margin-top: 100px;
   margin-top: 18%;
 }
@@ -272,7 +274,7 @@ section#home p{
 /* Div- Skills */
 #skills {
   scroll-margin-top: 100px;
-  margin-left: 580px;
+  margin-left: 480px;
   margin-top: 18%;
   padding-top: 5%;
 }
@@ -293,7 +295,7 @@ section#home p{
 /* Div - Contatos */
 #contact{
   scroll-margin-top: 100px;
-  margin-left: 580px;
+  margin-left: 480px;
   margin-top: 18%;
   padding-top: 5%;
 }
