@@ -1,3 +1,17 @@
+/* 
+Media Query
+
+Mobile devices: 319px - 480px
+Ipads and Tablets: 481px - 1200px
+Laptos: 1201px - 1600px
+Desktops: 1601px and more.
+
+*/
+
+/* Responsividade para Desktop*/
+/*Desktop device:*/
+@media (min-width: 769px) {
+
 /* Reset básico */
 * {
     margin: 0;
@@ -5,7 +19,7 @@
 }
 
 body{
-  background-color:#020817;
+  background-color:#040c1f;
 }
 
 main{
@@ -17,13 +31,12 @@ main{
 
 
 /* Menu de Navegação */
-.Menu_Nav{
+.desktop_menu{
   display: flex;
   position: fixed;
   background: rgba(2, 8, 23, 0.9);
   justify-content: space-between;
   width: 100%;
-  padding-top: 10px;
 }
 
 .nav_links {
@@ -34,7 +47,7 @@ main{
 .nav_links a {
   text-decoration: none;
   font-family: 'Jaro', sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(250, 246, 246);
   padding: 10px;
 }
 
@@ -46,7 +59,7 @@ main{
 
 
 /*Logo*/
-.logo_item {
+.logo_desktop {
   display: flex;
   font-size: 28px;
   font-family: 'Jaro', sans-serif;
@@ -54,7 +67,7 @@ main{
   color: #0270FF;
 }
 
-.logo_item a{
+.logo_desktop a{
   text-decoration: none;
 }
 /* Fim do Menu de Navegação */
@@ -154,7 +167,7 @@ section#home p{
   color: #fafbfc;
 }
 
-/* Seção - Sobre mim | DEVE SER AJUSTADO IGUAL DO DESIGN FIGMA*/ 
+/* Seção - Sobre mim */ 
 
 #aboutme {
   margin-left: 480px;
@@ -197,6 +210,7 @@ section#home p{
 }
 
 .content_biography h3{
+  display: flex;
   align-items: center; /* alinha verticalmente ícone e texto */
   gap: 10px; /* espaço entre o ícone e o texto */
   font-size: 1.2rem;
@@ -334,4 +348,18 @@ footer p{
 footer a{
   text-decoration: none;
   color:#000000;
+}
+
+/* Esconde o menu e botão em desktop */
+@media (min-width: 769px) {
+  #menu-toggle,
+  #mobile-menu {
+    display: none !important;
+  }
+}
+
+.mediaquery_mobile{
+  display: none;
+}
+
 }

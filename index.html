@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/webresponsive.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 769px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 769px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
@@ -13,30 +13,52 @@
     <title>Portfólio | Biasi</title>
 </head>
 <body>
+    <!--- Menu Mobile -->
+    <header class="mediaquery_mobile">
 
-    <nav class="Menu_Nav">
-        <div class="logo_item">
-            <a href="#" onclick="window.location.reload()"><span class="logo_GG"  style="color:#0270FF;">GG.</span></a>
+        <div class="mobile-header"> 
+            <a href="#" onclick="window.location.reload()"><span class="logo_mobile" style="color:#0270FF;">GG.</span></a>
+            <button id="menu-toggle"><strong>☰</strong></button>
         </div>
-        <div class="nav_links" draggable="true">
-            <a href="#home">Home</a>
-            <a href="#aboutme">Sobre mim</a>
-            <a href="#projects">Projetos</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contato</a>
-        </div> 
-    </nav>
         
 
+        <nav id="mobile-menu" class="hidden">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">Sobre mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--- End Mobile Menu -->
+
+    <!--- Menu Desktop -->
+    <header class="mediaquery_desktop">
+        <div class="logo_desktop">
+            <a href="#" onclick="window.location.reload()"><span class=""  style="color:#0270FF;">GG.</span></a>
+        </div>
+            <nav class="desktop_menu">    
+                <a href="#home">Home</a>
+                <a href="#aboutme">Sobre mim</a>
+                <a href="#projects">Projetos</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contato</a>
+            </nav> 
+    </header>
+<!--- End Desktop Menu -->
+
+
+<!--- Home  -->
     <main>
     <div class="content_home" draggable="true">
-        <section id="home" class="section_home">
+        <section id="home" class="">
             <span> Olá, Eu sou</span>
             <h1>Gabriel <u>Galante</u></h1>
             <h2>Full-Stack Beginner <br>  Estudante em Análise e Desenv.Sistemas</h2> <br>
             <p>Nunca é tarde para recomeçar ou inovar-se.</p>
         </section>
-
         <div class="my_profile">
             <img src="assets/profile.jpg" alt="profile">
             <section class="social_media">    
@@ -46,14 +68,14 @@
         </div>
     </div>
     </main>
+<!--- End Home -->
 
-
-    
 
         <!--- CORRIGIR ESTE SECTION E REPLICAR PARA OS DEMAIS !!! -->
-        <!--- SEÇÃO SOBRE MIM !!! -->
+        <!--- SEÇÃO SOBRE MIM - Desktop!!! -->
 
-        <div class="sections_general">
+     <div class="sections_general">
+
         <div id="aboutme" class="">
             <h2><span class="underline_blue">Sob</span>re mim</h2><br>
             <h3 class="biography_icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#0270FF" d="M19.903 8.586a1 1 0 0 0-.196-.293l-6-6a1 1 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a1 1 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a1 1 0 0 0-.051-.259q-.014-.048-.033-.093M16.586 8H14V5.414zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10z"/><path fill="#0270FF" d="M8 12h8v2H8zm0 4h8v2H8zm0-8h2v2H8z"/></svg>Bio</h3>
@@ -64,25 +86,25 @@
         <!--- DIV EDUCAÇÃO E EXPERIENCIA!!! -->
         <div class="content_biography">
             <section class="section_firstbox_aboutme">
-                <h3 class="education_icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#0270FF" d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9zm6.82 6L12 12.72L5.18 9L12 5.28zM17 16l-5 2.72L7 16v-3.73L12 15l5-2.73z"/></svg>Educação</h3> 
+                <h3 class="education_icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="1 -2 26 20"><path fill="#0270FF" d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9zm6.82 6L12 12.72L5.18 9L12 5.28zM17 16l-5 2.72L7 16v-3.73L12 15l5-2.73z"/></svg>Educação</h3> 
                 <p>Universidade Estácio EAD<br>
                 Análise & Desenv.Sistemas<br>
                 (2023 - 2025) - Tecnólogo</p>
             </section> 
 
             <section class="section_secondbox_aboutme">
-                <h3 class="experience_icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#0270FF"><path stroke="#0270FF" d="M7.5 10h-1c-1.414 0-2.121 0-2.56-.44C3.5 9.122 3.5 8.415 3.5 7s0-2.121.44-2.56C4.378 4 5.085 4 6.5 4h1c1.414 0 2.121 0 2.56.44c.44.439.44 1.146.44 2.56s0 2.121-.44 2.56C9.622 10 8.915 10 7.5 10m-4-4H2m20 0h-1.5"/><path fill="#0270FF" d="m3.152 18.765l-.693.287zm1.083 1.083l-.287.693zm0-5.696l-.287-.693zm-1.083 1.083l-.693-.287zM21 14.75a.75.75 0 0 0 0-1.5zm0 6a.75.75 0 0 0 0-1.5zm-1 0a.75.75 0 0 0 0-1.5zm0-6a.75.75 0 0 0 0-1.5zM2.25 17c0 .456 0 .835.02 1.145c.022.317.069.617.19.907l1.385-.574c-.032-.077-.061-.194-.078-.435A17 17 0 0 1 3.75 17zM6 19.25c-.476 0-.796 0-1.043-.017c-.241-.017-.358-.046-.435-.078l-.574 1.386c.29.12.59.167.907.188c.31.021.69.021 1.145.021zm-3.54-.198a2.75 2.75 0 0 0 1.488 1.489l.574-1.386a1.25 1.25 0 0 1-.677-.677zM6 13.25c-.456 0-.835 0-1.145.02a2.8 2.8 0 0 0-.907.19l.574 1.385c.077-.032.194-.061.435-.078A17 17 0 0 1 6 14.75zM3.75 17c0-.476 0-.796.017-1.043c.017-.241.046-.358.078-.435l-1.386-.574c-.12.29-.167.59-.188.907c-.021.31-.021.69-.021 1.145zm.198-3.54a2.75 2.75 0 0 0-1.489 1.488l1.386.574c.127-.307.37-.55.677-.677zM21 13.25H6v1.5h15zm-15 7.5h15v-1.5H6zm14-1.5c-.224 0-.518-.136-.79-.545c-.27-.403-.46-1.004-.46-1.705h-1.5c0 .956.257 1.855.712 2.537c.451.677 1.157 1.213 2.038 1.213zM18.75 17c0-.701.19-1.302.46-1.705c.272-.41.566-.545.79-.545v-1.5c-.881 0-1.587.536-2.038 1.213c-.455.682-.712 1.581-.712 2.537z"/><path stroke="#0270FF" d="M16.5 10h1c1.414 0 2.121 0 2.56-.44c.44-.439.44-1.146.44-2.56s0-2.121-.44-2.56C19.622 4 18.915 4 17.5 4h-1c-1.414 0-2.121 0-2.56.44c-.44.439-.44 1.146-.44 2.56s0 2.121.44 2.56c.439.44 1.146.44 2.56.44m-3-4a1.5 1.5 0 0 0-3 0"/></g></svg>Experiência</h3>
+                <h3 class="experience_icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="1 -2 26 20"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#0270FF"><path stroke="#0270FF" d="M7.5 10h-1c-1.414 0-2.121 0-2.56-.44C3.5 9.122 3.5 8.415 3.5 7s0-2.121.44-2.56C4.378 4 5.085 4 6.5 4h1c1.414 0 2.121 0 2.56.44c.44.439.44 1.146.44 2.56s0 2.121-.44 2.56C9.622 10 8.915 10 7.5 10m-4-4H2m20 0h-1.5"/><path fill="#0270FF" d="m3.152 18.765l-.693.287zm1.083 1.083l-.287.693zm0-5.696l-.287-.693zm-1.083 1.083l-.693-.287zM21 14.75a.75.75 0 0 0 0-1.5zm0 6a.75.75 0 0 0 0-1.5zm-1 0a.75.75 0 0 0 0-1.5zm0-6a.75.75 0 0 0 0-1.5zM2.25 17c0 .456 0 .835.02 1.145c.022.317.069.617.19.907l1.385-.574c-.032-.077-.061-.194-.078-.435A17 17 0 0 1 3.75 17zM6 19.25c-.476 0-.796 0-1.043-.017c-.241-.017-.358-.046-.435-.078l-.574 1.386c.29.12.59.167.907.188c.31.021.69.021 1.145.021zm-3.54-.198a2.75 2.75 0 0 0 1.488 1.489l.574-1.386a1.25 1.25 0 0 1-.677-.677zM6 13.25c-.456 0-.835 0-1.145.02a2.8 2.8 0 0 0-.907.19l.574 1.385c.077-.032.194-.061.435-.078A17 17 0 0 1 6 14.75zM3.75 17c0-.476 0-.796.017-1.043c.017-.241.046-.358.078-.435l-1.386-.574c-.12.29-.167.59-.188.907c-.021.31-.021.69-.021 1.145zm.198-3.54a2.75 2.75 0 0 0-1.489 1.488l1.386.574c.127-.307.37-.55.677-.677zM21 13.25H6v1.5h15zm-15 7.5h15v-1.5H6zm14-1.5c-.224 0-.518-.136-.79-.545c-.27-.403-.46-1.004-.46-1.705h-1.5c0 .956.257 1.855.712 2.537c.451.677 1.157 1.213 2.038 1.213zM18.75 17c0-.701.19-1.302.46-1.705c.272-.41.566-.545.79-.545v-1.5c-.881 0-1.587.536-2.038 1.213c-.455.682-.712 1.581-.712 2.537z"/><path stroke="#0270FF" d="M16.5 10h1c1.414 0 2.121 0 2.56-.44c.44-.439.44-1.146.44-2.56s0-2.121-.44-2.56C19.622 4 18.915 4 17.5 4h-1c-1.414 0-2.121 0-2.56.44c-.44.439-.44 1.146-.44 2.56s0 2.121.44 2.56c.439.44 1.146.44 2.56.44m-3-4a1.5 1.5 0 0 0-3 0"/></g></svg>Experiência</h3>
                 <p>Analista Suporte JR | Service Desk <br>
                 Callink (2023)</p>
             </section>
         </div>
             
             
-            <!--- DEMAIS SEÇÕES DEVEM SER AJUSTADAS!!! 25/05/2025 -->
+            <!--- DEMAIS SEÇÕES DEVEM SER AJUSTADAS!!! 27/05-->
         
         <div id="projects"  class="">
             <h2><span class="underline_blue">Pro</span>jetos</h2>
-            <p>Nesta seção, possuí alguns projetos pessoais que desenvolvi para aprimorar meu conhecimento por meio da prática.</p>
+            <p>Nesta seção, há alguns projetos pessoais que desenvolvi para aprimorar meu conhecimento por meio da prática.</p>
             <div class="grid_project">
             </div>
         </div>
@@ -105,6 +127,9 @@
     <footer>
        <p>&copy; <strong>2025 GG. Todos os direitos reservados.</strong></p>
     </footer>
+
+    <script src="script.js"></script>
+    
 
 </body>
 </html>

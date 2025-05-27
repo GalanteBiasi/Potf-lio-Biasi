@@ -1,0 +1,358 @@
+/* 
+Media Query
+
+Mobile devices: 319px - 480px
+Ipads and Tablets: 481px - 1200px
+Laptos: 1201px - 1600px
+Desktops: 1601px and more.
+
+*/
+
+/* Responsividade para dispositivos móveis */
+/*Mobile Devices:*/
+@media (max-width: 769px) {
+    /* Ajusta o menu */
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color:#020817;
+  margin: 0;
+  color: white; /* temporário */
+}
+
+main{
+margin: auto;
+}
+
+header {
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+/* Sublinhado dos Sections */
+.underline_blue{
+  text-decoration: underline;
+  text-decoration-color: #0270FF;
+  color: #fafbfc;
+}
+
+/* Menu Mobile */
+
+.fixed-menu {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+  width: 20px; /* opcional: ajuste para não ficar muito largo */
+}
+
+
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: transparent;
+  }
+
+  .logo_mobile {
+    font-family: 'Jaro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0270FF;
+    text-decoration: none;
+  }
+
+  .mobile-header a{
+  text-decoration: none;
+  
+}
+  #menu-toggle {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+
+
+#mobile-menu {
+  background-color: rgba(2, 8, 23, 0.9);
+  justify-items: center;
+  border-radius: 10px;
+  width: 15%;
+  margin-left: 82%;
+  z-index: 1000;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mobile-menu li {
+  border-radius: 2px;
+  border-top: 0.8px solid #0270FF;
+  border-bottom: 0.8px solid #0270FF;
+  border-left: 0.8px solid #0270FF;
+  border-right: 0.8px solid #0270FF;
+}
+
+#mobile-menu a {
+  text-align: center;
+  display: block;
+  border-radius: 1px;
+  padding: 10px;
+  color: rgb(247, 246, 246);
+  font-family: 'Jaro', sans-serif;
+  text-decoration: none;
+}
+
+#mobile-menu a:hover {
+  color: black;
+}
+
+#mobile-menu a:hover {
+  background-color: #2d80ec;
+}
+
+.hidden {
+  display: none;
+}
+
+ 
+/* END Menu Mobile */
+
+
+/* Div Home */
+
+  .content_home {
+    margin: 50px;
+    justify-items: center;
+    max-width: 90%;           /* Evita que fique muito largo */
+    font-family: 'Jaro';
+  }
+
+#home{
+  margin-top: 100px;
+  font-size:14px;
+}
+
+#home span{
+  color:#0270FF;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+section#home u{
+  
+  color:#0270FF;
+}
+
+section#home p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: rgb(177, 175, 175);
+
+}
+
+
+.my_profile{
+  justify-items: center
+  
+}
+
+.my_profile img{
+  width: 150px;
+  margin: 10px;
+  margin-top: 60px;
+  border-radius: 50px;  
+}
+
+.my_profile a{
+  color:#0270FF;
+  text-decoration: none;
+  font-family: 'Jaro';
+  padding: 0.5em;
+}
+
+.my_profile a:hover{
+  color:#57A3FF;
+  transition-duration: 0.5s;
+  
+}
+
+.social_media {
+  margin-top: 10px;
+}
+/* END DIV HOME */
+
+
+
+/* Div AboutMe */
+
+#aboutme {
+  scroll-margin-top: 100px;
+  margin: 30px;
+  margin-top: 40px;
+}
+
+#aboutme h2{
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
+}
+
+#aboutme h3{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center; /* alinha verticalmente ícone e texto */
+  gap: 10px; /* espaço entre o ícone e o texto */
+  font-size: 1.2rem;
+  color: white;
+}
+
+#aboutme p{
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(192, 191, 191);
+  margin-top: 18px;
+}
+
+.content_biography{
+  display: grid;
+  margin: 30px;
+  gap: 10px;
+  
+
+}
+
+.content_biography h3{
+  gap: 10px; /* espaço entre o ícone e o texto */
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+/* section EDUCATION */
+.section_firstbox_aboutme{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 0rem;
+  padding: 2rem;
+}
+
+.section_firstbox_aboutme p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+}
+
+.education_icon{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* section  EXPERIENCE */
+
+.section_secondbox_aboutme{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 0rem;
+  padding: 2rem;
+}
+
+.section_secondbox_aboutme p{
+  color: rgb(192, 191, 191);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+}
+
+.experience_icon{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* END Div AboutMe */
+
+
+
+/* Div Projects */
+#projects{
+  scroll-margin-top: 100px;
+  margin: 30px;
+  padding-top: 5%;
+}
+
+#projects p{
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(192, 191, 191);
+  margin-top: 20px;
+}
+/* End Div Projects */
+
+
+/* Div Skills */
+#skills{
+  scroll-margin-top: 100px;
+  margin: 30px;
+}
+
+#skills p{
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(192, 191, 191);
+  margin-top: 20px;
+}
+/* End Div Skills */
+
+
+
+#contact{
+  scroll-margin-top: 100px;
+  margin: 30px;
+  margin-top: 100px;
+}
+
+#contact h2{
+  text-align: center;
+}
+
+#contact p{
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(192, 191, 191);
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desativado Desktop + Ativação Mobile */
+.mediaquery_desktop{
+ display: none;
+}
+
+
+}
