@@ -10,7 +10,7 @@ Desktops: 1601px and more.
 
 /* Responsividade para dispositivos móveis */
 /*Mobile Devices:*/
-@media (max-width: 769px) {
+@media (min-width: 200px) and (max-width: 769px) {
     /* Ajusta o menu */
 /* Reset básico */
 * {
@@ -29,11 +29,17 @@ margin: auto;
 }
 
 header {
-  background-color: transparent;
+  background-color: grey;
   color: white;
-  position: fixed;
   width: 100%;
   top: 0px;
+}
+
+/* Section Geral */
+.sections_general{
+width:100%;   
+scroll-margin-top: 100px;
+   
 }
 
 /* Sublinhado dos Sections */
@@ -55,8 +61,6 @@ header {
 
 
 .mobile-header {
-    display: flex;
-    justify-content: space-between;
     padding: 10px 15px;
     background-color: transparent;
   }
@@ -80,6 +84,7 @@ header {
     padding: 0px 5px;
     font-size: 20px;
     cursor: pointer;
+    
     
   }
 
@@ -143,8 +148,9 @@ header {
   }
 
 #home{
+  scroll-margin-top: 100px;
   margin-top: 100px;
-  font-size:14px;
+  font-size:20px;
 }
 
 #home span{
@@ -160,7 +166,7 @@ section#home u{
 
 section#home p{
   font-family: 'Courier New', Courier, monospace;
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(177, 175, 175);
 
 }
@@ -231,7 +237,8 @@ section#home p{
 .content_biography{
   display: grid;
   margin: 30px;
-  gap: 10px;
+  gap: 30px;
+  
   
 
 }
@@ -290,7 +297,14 @@ section#home p{
 #projects{
   scroll-margin-top: 100px;
   margin: 30px;
-  padding-top: 5%;
+  margin-top: 30%;
+
+}
+
+#projects h2{
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
 }
 
 #projects p{
@@ -306,6 +320,13 @@ section#home p{
 #skills{
   scroll-margin-top: 100px;
   margin: 30px;
+  margin-top: 60%;
+}
+
+#skills h2{
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
 }
 
 #skills p{
@@ -317,22 +338,51 @@ section#home p{
 /* End Div Skills */
 
 
-
+/* Div Contact */
 #contact{
   scroll-margin-top: 100px;
   margin: 30px;
-  margin-top: 100px;
+  margin-top: 60%;
+
 }
 
 #contact h2{
-  text-align: center;
-}
+  color: rgb(255, 255, 255);
+  font-family: 'Jaro';
+  font-size: 30px;
+  }
+
 
 #contact p{
   font-size: 13px;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(192, 191, 191);
   margin-top: 20px;
+}
+/* End Div Contact */
+
+
+
+/* Footer ( Rodapé) */
+
+footer{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color:#000000;
+  background-color:#2d80ec;
+  width: 110%;
+  margin-top: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+  color:#000000;
 }
 
 
