@@ -29,7 +29,7 @@ margin: auto;
 }
 
 header {
-  background-color: grey;
+  background-color: transparent;
   color: white;
   width: 100%;
   top: 0px;
@@ -84,7 +84,8 @@ scroll-margin-top: 100px;
     padding: 0px 5px;
     font-size: 20px;
     cursor: pointer;
-    
+    float: right;
+    z-index: 1000;
     
   }
 
