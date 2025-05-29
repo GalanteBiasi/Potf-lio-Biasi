@@ -151,12 +151,12 @@ scroll-margin-top: 100px;
 #home{
   scroll-margin-top: 100px;
   margin-top: 100px;
-  font-size:20px;
+  font-size:18px;
 }
 
 #home span{
   color:#0270FF;
-  font-size: 14px;
+  font-size:20px;
   line-height: 20px;
 }
 
@@ -166,17 +166,13 @@ section#home u{
 }
 
 section#home p{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
+  font-family: "Zen Antique Soft", serif;
+  font-size: 15px;
   color: rgb(177, 175, 175);
-
 }
 
 
-.my_profile{
-  justify-items: center
-  
-}
+
 
 .my_profile img{
   width: 150px;
@@ -200,6 +196,7 @@ section#home p{
 
 .social_media {
   margin-top: 10px;
+  text-align: center;
 }
 /* END DIV HOME */
 
@@ -230,7 +227,7 @@ section#home p{
 
 #aboutme p{
   font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 18px;
 }
@@ -239,9 +236,6 @@ section#home p{
   display: grid;
   margin: 30px;
   gap: 30px;
-  
-  
-
 }
 
 .content_biography h3{
