@@ -273,6 +273,7 @@ section#home p{
 .section_secondbox_aboutme p{
   color: rgb(192, 191, 191);
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
 }
 
 .experience_icon{
