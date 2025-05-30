@@ -231,7 +231,7 @@ section#home p{
 }
 
 .content_biography{
-  display: grid;
+  display: flex;
   margin: 30px;
   gap: 30px;
 }
@@ -254,7 +254,6 @@ section#home p{
 .section_firstbox_aboutme p{
   color: rgb(192, 191, 191);
   font-family: 'Courier New', Courier, monospace;
-  padding-top: 20px;
 }
 
 .education_icon{
@@ -274,7 +273,6 @@ section#home p{
 .section_secondbox_aboutme p{
   color: rgb(192, 191, 191);
   font-family: 'Courier New', Courier, monospace;
-  padding-top: 20px;
 }
 
 .experience_icon{
