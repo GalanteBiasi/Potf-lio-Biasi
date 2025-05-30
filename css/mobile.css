@@ -37,7 +37,7 @@ header {
 
 /* Section Geral */
 .sections_general{
-width:100%;   
+width:100%;
 scroll-margin-top: 100px;
    
 }
@@ -231,7 +231,7 @@ section#home p{
 }
 
 .content_biography{
-  display: flex;
+  display: grid;
   margin: 30px;
   gap: 30px;
 }
@@ -241,7 +241,6 @@ section#home p{
   font-size: 1.2rem;
   color: white;
 }
-
 
 /* section EDUCATION */
 .section_firstbox_aboutme{
