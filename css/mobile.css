@@ -232,7 +232,7 @@ section#home p{
 }
 
 .content_biography{
-  display: flex;
+  display: grid;
   margin: 30px;
   gap: 30px;
 
@@ -240,7 +240,7 @@ section#home p{
 }
 
 .content_biography h3{
-  gap: 10px; /* espaço entre o ícone e o texto */
+  gap: 10px;
   font-size: 1.2rem;
   color: white;
   width: 0;
