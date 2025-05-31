@@ -232,11 +232,8 @@ section#home p{
 }
 
 .content_biography{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  width: 70%;
+  display: flex;
   margin: 30px;
-  padding: 20px;
   gap: 30px;
 
  
@@ -246,6 +243,7 @@ section#home p{
   gap: 10px; /* espaço entre o ícone e o texto */
   font-size: 1.2rem;
   color: white;
+  width: 0;
 }
 
 /* section EDUCATION */
@@ -280,7 +278,6 @@ section#home p{
 .section_secondbox_aboutme p{
   color: rgb(192, 191, 191);
   font-family: 'Courier New', Courier, monospace;
-  padding-top: 20px;
 }
 
 .experience_icon{
