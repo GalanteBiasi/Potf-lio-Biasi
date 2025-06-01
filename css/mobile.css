@@ -291,51 +291,21 @@ section#home p{
 /* END Div AboutMe */
 
 
-.projectviewer {
-  height: 400px; /* ou 100vh para ocupar a tela toda */
-  overflow-y: auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
-.project {
-  margin-bottom: 30px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.project h3 {
-  margin: 0;
-}
-
-.project a {
-  display: inline-block;
-  margin-top: 5px;
-  color: #007BFF;
-  text-decoration: none;
-}
-.project a:hover {
-  text-decoration: underline;
-}
-
-/* Div Projects 
-#projectviewer{
+/* Div Projects */
+#projects {
   scroll-margin-top: 100px;
   margin: 30px;
   margin-top: 30%;
-
 }
 
-#projectviewer h2{
+#projects h2{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
 }
 
-#projectviewer p{
+#projects p{
   font-size: 13px;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(192, 191, 191);
