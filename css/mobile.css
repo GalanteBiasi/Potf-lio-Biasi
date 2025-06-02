@@ -90,10 +90,9 @@ scroll-margin-top: 100px;
 
 #mobile-menu {
   background-color: rgba(2, 8, 23, 0.9);
-  justify-items: center;
+  flex-direction: column;
   border-radius: 10px;
-  width: 15%;
-  margin-left: 82%;
+  text-align: end;
   z-index: 1000;
 }
 
@@ -113,12 +112,12 @@ scroll-margin-top: 100px;
 
 #mobile-menu a {
   text-align: center;
+  font-family: 'Jaro', sans-serif;
+  text-decoration: none;
   display: block;
   border-radius: 1px;
   padding: 10px;
   color: rgb(247, 246, 246);
-  font-family: 'Jaro', sans-serif;
-  text-decoration: none;
 }
 
 #mobile-menu a:hover {
@@ -288,7 +287,6 @@ section#home p{
 /* Div Projects */
 #projects{
   scroll-margin-top: 100px;
-  margin: 30px;
   margin-top: 30%;
 }
 
@@ -382,12 +380,127 @@ footer a{
 
 
 
+/* Carrossel Project Teste */
 
 
+.carousel {
+      width: 90%;
+      max-width: 800px;
+      margin: 50px auto;
+      overflow: hidden;
+      position: relative;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      background-color: white;
+    }
 
+    
+    .carousel-item {
+      min-width: 100%;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
 
+.carousel_section1{
+    width: 100%;
+    margin-top: 10%;
 
+}
+
+    .carousel-item h1{
+      color: rgb(0, 0, 0);
+    }
+
+    .carousel-item a{
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .carousel-item img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 15px;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 2;
+      border-radius: 50%;
+    }
+
+    #prev {
+      left: 10px;
+    }
+
+    #next {
+      right: 10px;
+    }
+
+    .carousel-button:hover {
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    /* Modal fullscreen */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      overflow: auto;
+      text-align: center;
+    }
+
+    .modal-content img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      z-index: 1001;
+    }
+
+    @media (hover: hover) {
+      .carousel-item:hover img {
+        transform: scale(1.03);
+      }
 
 
 /* Desativado Desktop + Ativação Mobile */
@@ -396,4 +509,5 @@ footer a{
 }
 
 
-}
+    }
+    }
