@@ -12,8 +12,6 @@ Desktops: 1601px and more.
 /*Mobile Devices:*/
 @media (min-width: 200px) and (max-width: 769px) {
    
-
- 
  /* Desativado Desktop + Ativação Mobile */
 .mediaquery_desktop{
   display: none;
@@ -179,6 +177,7 @@ section#home p{
 /* My Picture and Social Media */
 
 .my_profile img{
+  display: block;
   width: 150px;
   margin: 10px;
   margin-top: 60px;
