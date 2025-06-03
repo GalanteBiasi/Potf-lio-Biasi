@@ -12,6 +12,19 @@ Desktops: 1601px and more.
 /*Desktop device:*/
 @media (min-width: 769px) {
 
+/* Esconde o menu e botão em desktop */
+@media (min-width: 769px) {
+  #menu-toggle,
+  #mobile-menu {
+    display: none !important;
+  }
+}
+
+.mediaquery_mobile{
+  display: none;
+}
+
+
 /* Reset básico */
 * {
     margin: 0;
@@ -28,12 +41,9 @@ main{
 }
 
 
-
-
 /* Menu de Navegação */
 .desktop_menu{
-  display: flex;
-  position: fixed;
+  flex-direction: row;
   background: rgba(2, 8, 23, 0.9);
   justify-content: space-between;
   width: 100%;
@@ -44,14 +54,14 @@ main{
   margin-right: 15%;
 }
 
-.nav_links a {
+.desktop_menu a {
   text-decoration: none;
   font-family: 'Jaro', sans-serif;
   color: rgb(250, 246, 246);
   padding: 10px;
 }
 
-.nav_links a:hover {
+.desktop_menu a:hover {
   color: #2d80ec;
 }
 
@@ -350,16 +360,6 @@ footer a{
   color:#000000;
 }
 
-/* Esconde o menu e botão em desktop */
-@media (min-width: 769px) {
-  #menu-toggle,
-  #mobile-menu {
-    display: none !important;
-  }
-}
 
-.mediaquery_mobile{
-  display: none;
-}
 
 }
