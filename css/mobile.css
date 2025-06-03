@@ -11,7 +11,14 @@ Desktops: 1601px and more.
 /* Responsividade para dispositivos móveis */
 /*Mobile Devices:*/
 @media (min-width: 200px) and (max-width: 769px) {
-    /* Ajusta o menu */
+   
+
+ 
+ /* Desativado Desktop + Ativação Mobile */
+.mediaquery_desktop{
+  display: none;
+ }
+  
 /* Reset básico */
 * {
     margin: 0;
@@ -92,7 +99,7 @@ scroll-margin-top: 100px;
   background-color: rgba(2, 8, 23, 0.9);
   flex-direction: column;
   border-radius: 10px;
-  text-align: end;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -496,16 +503,10 @@ footer a{
     }
 
     
-.carousel-item:hover img{
+    .carousel-item:hover img{
     transform: scale(1.03);
-  }
+    }
 
 
-/* Desativado Desktop + Ativação Mobile */
-.mediaquery_desktop{
- display: none;
-}
-
-
-}  
+  }  
     
