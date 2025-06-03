@@ -78,13 +78,13 @@ scroll-margin-top: 100px;
   
 }
   #menu-toggle {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    width: 0;
     background-color: transparent;
     color: white;
     border: none;
-    font-size: 20px;
-    cursor: pointer;
-    float: right;
-    width: 0;
   }
 
 
@@ -140,8 +140,8 @@ scroll-margin-top: 100px;
 
   .content_home {
     margin: 50px;
-    justify-items: center;
     max-width: 90%;           /* Evita que fique muito largo */
+    justify-items: center;
     font-family: 'Jaro';
   }
 
@@ -176,7 +176,6 @@ section#home p{
   margin: 10px;
   margin-top: 60px;
   border-radius: 50px;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -231,7 +230,6 @@ section#home p{
 }
 
 .content_biography{
-  display: grid;
   margin: 30px;
   gap: 30px;
 }
@@ -396,13 +394,12 @@ footer a{
     .carousel-track {
       display: flex;
       transition: transform 0.5s ease-in-out;
-      background-color: white;
+      background-color: rgb(228, 221, 221);
     }
 
     
     .carousel-item {
       min-width: 100%;
-      padding: 20px;
       text-align: center;
       cursor: pointer;
     }
@@ -423,10 +420,11 @@ footer a{
     }
 
     .carousel-item img {
-      max-width: 100%;
+      max-width: 70%;
       height: auto;
       margin-top: 10%;
       border-radius: 8px;
+      
       transition: transform 0.3s ease;
     }
 
@@ -497,10 +495,10 @@ footer a{
       z-index: 1001;
     }
 
-    @media (hover: hover) {
-      .carousel-item:hover img {
-        transform: scale(1.03);
-      }
+    
+.carousel-item:hover img{
+    transform: scale(1.03);
+  }
 
 
 /* Desativado Desktop + Ativação Mobile */
@@ -509,5 +507,5 @@ footer a{
 }
 
 
-    }
-    }
+}  
+    
