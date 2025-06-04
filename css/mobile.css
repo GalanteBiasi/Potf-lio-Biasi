@@ -220,7 +220,7 @@ section#home p{
 }
 
 #aboutme h3{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Zen Antique Soft", serif;
   display: flex;
   align-items: center; /* alinha verticalmente ícone e texto */
   gap: 10px; /* espaço entre o ícone e o texto */
@@ -229,7 +229,7 @@ section#home p{
 }
 
 #aboutme p{
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 18px;
@@ -291,8 +291,7 @@ section#home p{
 
 /* Div Projects */
 #projects{
-  scroll-margin-top: 100px;
-  margin-top: 30%;
+  scroll-margin-top: 10px;
   margin: 30px;
 }
 
@@ -303,8 +302,8 @@ section#home p{
 }
 
 #projects p{
-  font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
 }
@@ -325,8 +324,8 @@ section#home p{
 }
 
 #skills p{
-  font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
 }
@@ -349,8 +348,8 @@ section#home p{
 
 
 #contact p{
-  font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
 }
@@ -401,6 +400,7 @@ footer a{
 
     .carousel-track {
       display: flex;
+      height: 60vh;
       transition: transform 0.5s ease-in-out;
       background-color: rgb(228, 221, 221);
     }
@@ -411,15 +411,20 @@ footer a{
       text-align: center;
       cursor: pointer;
     }
+    
 
 .carousel_section1{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
+}
 
+.carousel_section1 span{
+  margin-top: 10%;
 }
 
     .carousel-item h1{
       color: rgb(0, 0, 0);
+      font-family: 'Zen'
     }
 
     .carousel-item a{
@@ -428,9 +433,10 @@ footer a{
     }
 
     .carousel-item img {
-      max-width: 70%;
+      width: 300px;
+      justify-items: center;
       height: auto;
-      margin-top: 10%;
+      margin-top: 2%;
       border-radius: 8px;
       
       transition: transform 0.3s ease;
