@@ -136,8 +136,6 @@ scroll-margin-top: 100px;
 .hidden {
   display: none;
 }
-
- 
 /* END Menu Mobile */
 
 
@@ -146,7 +144,6 @@ scroll-margin-top: 100px;
   .content_home {
     margin: 30px;
     max-width: 90%;           /* Evita que fique muito largo */
-    justify-items: center;
     font-family: 'Jaro';
   }
 
@@ -175,6 +172,10 @@ section#home p{
 
 
 /* My Picture and Social Media */
+.my_profile{
+  text-align: center;
+}
+
 
 .my_profile img{
   text-align: center;
@@ -199,7 +200,6 @@ section#home p{
 
 .social_media {
   margin-top: 10px;
-  text-align: center;
 }
 /* END DIV HOME */
 
