@@ -144,7 +144,7 @@ scroll-margin-top: 100px;
 /* Div Home */
 
   .content_home {
-    margin: 50px;
+    margin: 30px;
     max-width: 90%;           /* Evita que fique muito largo */
     justify-items: center;
     font-family: 'Jaro';
@@ -177,7 +177,7 @@ section#home p{
 /* My Picture and Social Media */
 
 .my_profile img{
-  display: block;
+  text-align: center;
   width: 150px;
   margin: 10px;
   margin-top: 60px;
