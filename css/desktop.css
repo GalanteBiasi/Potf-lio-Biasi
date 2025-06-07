@@ -45,11 +45,11 @@ main{
 .desktop_menu{
   flex-direction: row;
   background: rgba(2, 8, 23, 0.9);
-  justify-content: space-between;
+ 
   width: 100%;
 }
 
-.nav_links {
+.desktop_menu {
   font-family: 'Jaro', sans-serif;
   margin-right: 15%;
 }

@@ -25,7 +25,7 @@ Desktops: 1601px and more.
 
 body{
   background-color:#020817;
-  margin: 0;
+  margin: 0 ;
   color: white; /* temporário */
 }
 
@@ -166,7 +166,7 @@ section#home u{
 
 section#home p{
   font-family: "Zen Antique Soft", serif;
-  font-size: 15px;
+  font-size: 18px;
   color: rgb(177, 175, 175);
 }
 
@@ -229,7 +229,7 @@ section#home p{
 }
 
 #aboutme p{
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 18px;
@@ -293,16 +293,18 @@ section#home p{
 #projects{
   scroll-margin-top: 10px;
   margin: 30px;
+  margin-top: 20%;
 }
 
 #projects h2{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
+
 }
 
 #projects p{
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
@@ -324,7 +326,7 @@ section#home p{
 }
 
 #skills p{
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
@@ -341,6 +343,7 @@ section#home p{
 }
 
 #contact h2{
+  text-align: center;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
@@ -348,17 +351,67 @@ section#home p{
 
 
 #contact p{
+  text-align: center;
   font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
+}
+
+/* Contact Forms */
+fieldset{
+  margin-top: 2rem;
+  border-color: #0c1836;
+  border-radius: 10px;
+  padding: 5rem;
+  font-size: 15px
+}
+
+.form_content{
+  
+  box-sizing: border-box;
+}
+
+.form_content label{
+  color: rgb(192, 191, 191);
+}
+
+.form_content_1 input{
+  background-color: #020817;
+  border-radius: 5px;
+  font-family: "Zen Atique Soft", serif;
+  font-size: 15px;
+  color: rgb(192, 191, 191);;
+  margin: 0.5rem;
+  padding: 10px;
+  width: 50%;
+  
+}
+
+.form_content_2 input{
+  background-color: #020817;
+  border-radius: 5px;
+  font-family: "Zen Atique Soft", serif;
+  font-size: 15px;
+  color: rgb(192, 191, 191);;
+  margin: 0.5rem;
+  padding: 10px;
+  width: 40%;
+}
+
+.form_content_3{
+  margin-top: 2rem;
+}
+
+.form_content textarea{
+  background-color: #0270FF;
+  
 }
 /* End Div Contact */
 
 
 
 /* Footer ( Rodapé) */
-
 footer{
   font-family:'Times New Roman', Times, serif;
   text-align: center;
@@ -382,138 +435,4 @@ footer a{
 
 
 
-
-
-
-/* Carrossel Project Teste */
-
-
-.carousel {
-      width: 90%;
-      max-width: 800px;
-      margin: 50px auto;
-      overflow: hidden;
-      position: relative;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .carousel-track {
-      display: flex;
-      height: 60vh;
-      transition: transform 0.5s ease-in-out;
-      background-color: rgb(228, 221, 221);
-    }
-
-    
-    .carousel-item {
-      min-width: 100%;
-      text-align: center;
-      cursor: pointer;
-    }
-    
-
-.carousel_section1{
-    width: 100%;
-    margin-top: 5%;
 }
-
-.carousel_section1 span{
-  margin-top: 10%;
-}
-
-    .carousel-item h1{
-      color: rgb(0, 0, 0);
-      font-family: 'Zen'
-    }
-
-    .carousel-item a{
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    .carousel-item img {
-      width: 300px;
-      justify-items: center;
-      height: auto;
-      margin-top: 2%;
-      border-radius: 8px;
-      
-      transition: transform 0.3s ease;
-    }
-
-    .carousel-button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: rgba(0,0,0,0.5);
-      color: white;
-      border: none;
-      padding: 15px;
-      font-size: 18px;
-      cursor: pointer;
-      z-index: 2;
-      border-radius: 50%;
-    }
-
-    #prev {
-      left: 10px;
-    }
-
-    #next {
-      right: 10px;
-    }
-
-    .carousel-button:hover {
-      background-color: rgba(0,0,0,0.7);
-    }
-
-    /* Modal fullscreen */
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.85);
-      z-index: 1000;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-
-    .modal-content {
-      background-color: white;
-      padding: 20px;
-      max-width: 90%;
-      max-height: 90%;
-      border-radius: 10px;
-      overflow: auto;
-      text-align: center;
-    }
-
-    .modal-content img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .modal-close {
-      position: absolute;
-      top: 20px;
-      right: 30px;
-      font-size: 30px;
-      color: white;
-      cursor: pointer;
-      z-index: 1001;
-    }
-
-    
-    .carousel-item:hover img{
-    transform: scale(1.03);
-    }
-
-
-  }  
-    
