@@ -42,9 +42,9 @@ header {
 
 /* Section Geral */
 .sections_general{
-width:100%;
+width: auto;
+margin: 20px;
 scroll-margin-top: 100px;
-   
 }
 
 /* Sublinhado dos Sections */
@@ -142,7 +142,7 @@ scroll-margin-top: 100px;
 /* Div Home */
 
   .content_home {
-    margin: 30px;
+    margin: 20px;
     max-width: 90%;           /* Evita que fique muito largo */
     font-family: 'Jaro';
   }
@@ -166,7 +166,7 @@ section#home u{
 
 section#home p{
   font-family: "Zen Antique Soft", serif;
-  font-size: 18px;
+  font-size: 15px;
   color: rgb(177, 175, 175);
 }
 
@@ -209,7 +209,6 @@ section#home p{
 
 #aboutme {
   scroll-margin-top: 100px;
-  margin: 30px;
   margin-top: 40px;
 }
 
@@ -229,7 +228,7 @@ section#home p{
 }
 
 #aboutme p{
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 18px;
@@ -237,8 +236,8 @@ section#home p{
 
 .content_biography{
   display: grid;
-  margin: 30px;
   gap: 30px;
+  margin-top: 30px;
 }
 
 .content_biography h3{
@@ -292,7 +291,6 @@ section#home p{
 /* Div Projects */
 #projects{
   scroll-margin-top: 10px;
-  margin: 30px;
   margin-top: 20%;
 }
 
@@ -304,7 +302,7 @@ section#home p{
 }
 
 #projects p{
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
@@ -315,7 +313,6 @@ section#home p{
 /* Div Skills */
 #skills{
   scroll-margin-top: 100px;
-  margin: 30px;
   margin-top: 60%;
 }
 
@@ -326,7 +323,7 @@ section#home p{
 }
 
 #skills p{
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
   margin-top: 20px;
@@ -337,13 +334,11 @@ section#home p{
 /* Div Contact */
 #contact{
   scroll-margin-top: 100px;
-  margin: 30px;
   margin-top: 60%;
 
 }
 
 #contact h2{
-  text-align: center;
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
@@ -351,7 +346,6 @@ section#home p{
 
 
 #contact p{
-  text-align: center;
   font-size: 14px;
   font-family: "Zen Antique Soft", serif;
   color: rgb(192, 191, 191);
@@ -368,7 +362,7 @@ fieldset{
 }
 
 .form_content{
-  
+  display: flex;
   box-sizing: border-box;
 }
 
@@ -378,6 +372,7 @@ fieldset{
 
 .form_content_1 input{
   background-color: #020817;
+  border-color: #0270FF;
   border-radius: 5px;
   font-family: "Zen Atique Soft", serif;
   font-size: 15px;
@@ -390,21 +385,24 @@ fieldset{
 
 .form_content_2 input{
   background-color: #020817;
+  border-color: #0270FF;
   border-radius: 5px;
   font-family: "Zen Atique Soft", serif;
   font-size: 15px;
   color: rgb(192, 191, 191);;
   margin: 0.5rem;
   padding: 10px;
-  width: 40%;
 }
 
 .form_content_3{
   margin-top: 2rem;
 }
 
-.form_content textarea{
-  background-color: #0270FF;
+.form_contact textarea{
+  background-color: #020817;
+  border-color:#0270FF;
+  border-radius: 10px;
+  
   
 }
 /* End Div Contact */
