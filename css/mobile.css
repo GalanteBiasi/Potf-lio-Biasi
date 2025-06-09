@@ -346,14 +346,20 @@ section#home p{
 .soft_skills h3{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
-  width: 20%;
+  width: auto;
   font-family: 'Jaro';
   text-align: center;
-
+/* espaçamento ao redor do texto */
   padding-top: .50rem;
   padding-bottom: .50rem;
   padding-left: .20rem;
   padding-right: .20rem;
+}
+
+.soft_skills h3:hover{
+  color: #0c1836;
+  background-color: #57A3FF;
+  transition-duration: 0.8s;
 }
 
 .softskills_attributes{
@@ -365,8 +371,10 @@ section#home p{
 .softskills_attributes span{
   color:#2f88fd;
   font-family: "Zen Antique Soft", serif;
+  font-size: 14px;
   background-color: #0d3364a4;
   border-radius: 10px;
+ /* espaçamento ao redor do texto */
   padding-top: .25rem;
   padding-bottom: .25rem;
   padding-left: .75rem;
@@ -384,14 +392,20 @@ section#home p{
 .hard_skills h3{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
-  width: 20%;
+  width: auto;
   font-family: 'Jaro';
   text-align: center;
-
+/* espaçamento ao redor do texto */
   padding-top: .50rem;
   padding-bottom: .50rem;
   padding-left: .20rem;
   padding-right: .20rem;
+}
+
+.hard_skills h3:hover{
+  color: #0c1836;
+  background-color: #57A3FF;
+  transition-duration: 0.8s;
 }
 
 .hardskills_attributes{
@@ -402,9 +416,11 @@ section#home p{
 
 .hardskills_attributes span{
   font-family: "Zen Antique Soft", serif;
+  font-size: 14px;
   color:#2f88fd;
   background-color: #0d3364a4;
   border-radius: 10px;
+  /* espaçamento ao redor do texto */
   padding-top: .25rem;
   padding-bottom: .25rem;
   padding-left: .75rem;
@@ -495,18 +511,18 @@ fieldset{
 
 /* Footer ( Rodapé) */
 footer{
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Zen Atique Soft", serif;
   text-align: center;
   color:#000000;
   background-color:#2d80ec;
   width: 110%;
-  margin-top: 20%;
+  margin-top: 10%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 footer p{
-  color: white;
+  color: rgb(8, 8, 8);
 }
 
 footer a{
