@@ -328,13 +328,92 @@ section#home p{
   color: rgb(192, 191, 191);
   margin-top: 20px;
 }
+
+/* SOFT SKILLS */
+
+.soft_skills{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+
+.soft_skills h3{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  width: 20%;
+  font-family: 'Jaro';
+  text-align: center;
+
+  padding-top: .50rem;
+  padding-bottom: .50rem;
+  padding-left: .20rem;
+  padding-right: .20rem;
+}
+
+.softskills_attributes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.softskills_attributes span{
+  color:#2f88fd;
+  font-family: "Zen Antique Soft", serif;
+  background-color: #0d3364a4;
+  border-radius: 10px;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+/* HARD SKILLS */
+.hard_skills{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+
+.hard_skills h3{
+  border: 0.5px solid #57A3FF;
+  border-radius: 10px;
+  width: 20%;
+  font-family: 'Jaro';
+  text-align: center;
+
+  padding-top: .50rem;
+  padding-bottom: .50rem;
+  padding-left: .20rem;
+  padding-right: .20rem;
+}
+
+.hardskills_attributes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hardskills_attributes span{
+  font-family: "Zen Antique Soft", serif;
+  color:#2f88fd;
+  background-color: #0d3364a4;
+  border-radius: 10px;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+
 /* End Div Skills */
 
 
 /* Div Contact */
 #contact{
   scroll-margin-top: 100px;
-  margin-top: 60%;
+  margin-top: 20%;
 
 }
 
