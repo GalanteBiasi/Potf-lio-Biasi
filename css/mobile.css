@@ -329,12 +329,17 @@ section#home p{
   margin-top: 20px;
 }
 
+.skill_test{
+  display: grid;
+  gap: 20px;
+}
+
 /* SOFT SKILLS */
 
 .soft_skills{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1.5rem;
 }
 
