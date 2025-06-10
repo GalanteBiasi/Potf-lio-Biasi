@@ -347,7 +347,7 @@ section#home p{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   width: auto;
-  font-family: 'Jaro';
+  font-family: "Zen Antique Soft", serif;
   text-align: center;
 /* espaçamento ao redor do texto */
   padding-top: .50rem;
@@ -393,7 +393,7 @@ section#home p{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   width: auto;
-  font-family: 'Jaro';
+  font-family: "Zen Antique Soft", serif;
   text-align: center;
 /* espaçamento ao redor do texto */
   padding-top: .50rem;
@@ -427,7 +427,9 @@ section#home p{
   padding-right: .75rem;
 }
 
-
+.hardskills_attributes span:hover{
+  transform: sa
+}
 /* End Div Skills */
 
 
@@ -494,17 +496,13 @@ fieldset{
   padding: 10px;
 }
 
-.form_content_3{
-  margin-top: 2rem;
-}
-
 .form_contact textarea{
   background-color: #020817;
   border-color:#0270FF;
   border-radius: 10px;
-  
-  
 }
+
+
 /* End Div Contact */
 
 
