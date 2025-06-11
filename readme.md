@@ -3,7 +3,7 @@ Seja bem-vindo ao meu Portfólio !
 Sobre mim:
 
 Me chamam por Biasi, mas me chamo Gabriel.
-Tenho meus 21 e sigo retornando aos estudos para se tornar um desenvolvedor Fullstack ou quem sabe opto virar um front ou back.
+Tenho meus 21 e sigo retornando aos estudos para se tornar um desenvolvedor Fullstack ou quem sabe opto virar um frontend.
 
 Bem, não leve a mal não sobre meu histórico do github. Iniciei os estudos de programação e tive falta de ânimo demais, porém estou retornando aos estudos novamente e com objetivo de seguir na carreira de fullstack. 
 

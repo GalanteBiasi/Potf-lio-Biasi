@@ -209,7 +209,7 @@ section#home p{
 
 #aboutme {
   scroll-margin-top: 100px;
-  margin-top: 40px;
+  margin-top: 30%;
 }
 
 #aboutme h2{
@@ -427,16 +427,13 @@ section#home p{
   padding-right: .75rem;
 }
 
-.hardskills_attributes span:hover{
-  transform: sa
-}
 /* End Div Skills */
 
 
 /* Div Contact */
 #contact{
   scroll-margin-top: 100px;
-  margin-top: 20%;
+  margin-top: 40%;
 
 }
 
@@ -444,6 +441,7 @@ section#home p{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
+  text-align: center;
   }
 
 
@@ -481,8 +479,7 @@ fieldset{
   color: rgb(192, 191, 191);;
   margin: 0.5rem;
   padding: 10px;
-  width: 50%;
-  
+  width: auto;
 }
 
 .form_content_2 input{
