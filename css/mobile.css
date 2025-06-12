@@ -325,7 +325,7 @@ section#home p{
 #skills p{
   font-size: 14px;
   font-family: "Zen Antique Soft", serif;
-  color: rgb(192, 191, 191);
+  color: rgb(191, 191, 192);
   margin-top: 20px;
 }
 
@@ -334,21 +334,19 @@ section#home p{
   gap: 20px;
 }
 
-/* SOFT SKILLS */
+/* Programming Language SKILLS */
 
-.soft_skills{
+.skill_section_one{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   margin-top: 2rem;
   padding: 1.5rem;
 }
 
-.soft_skills h3{
-  border: 0.5px solid #57A3FF;
-  border-radius: 10px;
+.skill_section_one h3{
   width: auto;
+  font-size: 17px;
   font-family: "Zen Antique Soft", serif;
-  text-align: center;
 /* espaçamento ao redor do texto */
   padding-top: .50rem;
   padding-bottom: .50rem;
@@ -356,45 +354,44 @@ section#home p{
   padding-right: .20rem;
 }
 
-.soft_skills h3:hover{
-  color: #0c1836;
-  background-color: #57A3FF;
-  transition-duration: 0.8s;
+.tittle_programminglanguage{
+  display: flex;
 }
 
-.softskills_attributes{
+.programminglanguage_attributes{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 20px;
 }
 
-.softskills_attributes span{
-  color:#2f88fd;
+.programminglanguage_attributes span{
   font-family: "Zen Antique Soft", serif;
   font-size: 14px;
-  background-color: #0d3364a4;
+  color:#c6c8ca;
   border-radius: 10px;
- /* espaçamento ao redor do texto */
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  border: 0.5px solid #57A3FF;
+  /* espaçamento ao redor do texto */
+  padding-top: .35rem;
+  padding-bottom: .35rem;
   padding-left: .75rem;
   padding-right: .75rem;
 }
 
-/* HARD SKILLS */
-.hard_skills{
+
+
+/* FrontEnd Developer SKILLS */
+.skill_section_two{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1.5rem;
 }
 
-.hard_skills h3{
-  border: 0.5px solid #57A3FF;
-  border-radius: 10px;
+.skill_section_two h3{
   width: auto;
+  font-size: 17px;
   font-family: "Zen Antique Soft", serif;
-  text-align: center;
 /* espaçamento ao redor do texto */
   padding-top: .50rem;
   padding-bottom: .50rem;
@@ -402,30 +399,37 @@ section#home p{
   padding-right: .20rem;
 }
 
-.hard_skills h3:hover{
-  color: #0c1836;
-  background-color: #57A3FF;
-  transition-duration: 0.8s;
+.tittle_frontend_dev{
+  display: flex;
 }
 
-.hardskills_attributes{
+.frontend_dev_attributes{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 20px;
 }
 
-.hardskills_attributes span{
+.frontend_dev_attributes span{
   font-family: "Zen Antique Soft", serif;
   font-size: 14px;
-  color:#2f88fd;
-  background-color: #0d3364a4;
+  color:#c6c8ca;
   border-radius: 10px;
+  border: 0.5px solid #57A3FF;
+  background-color: rgb(2, 8, 23);
   /* espaçamento ao redor do texto */
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  padding-top: .35rem;
+  padding-bottom: .35rem;
   padding-left: .75rem;
   padding-right: .75rem;
 }
+
+
+
+/* BACK END -  */
+
+
+
 
 /* End Div Skills */
 
@@ -433,7 +437,7 @@ section#home p{
 /* Div Contact */
 #contact{
   scroll-margin-top: 100px;
-  margin-top: 40%;
+  margin-top: 20%;
 
 }
 
@@ -441,7 +445,6 @@ section#home p{
   color: rgb(255, 255, 255);
   font-family: 'Jaro';
   font-size: 30px;
-  text-align: center;
   }
 
 
