@@ -448,6 +448,8 @@ section#home p{
 }
 
 .button_send_message{
+  color: #000000;
+  font-family: "Zen Atique Soft", serif;
   background-color: #0270FF;
   padding: 1rem;
   width: 100%;
