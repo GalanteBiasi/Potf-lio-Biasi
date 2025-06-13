@@ -334,16 +334,17 @@ section#home p{
   gap: 20px;
 }
 
-/* Programming Language SKILLS */
 
-.skill_section_one{
+/* Skill General Effects */
+
+.skill_section{
   border: 0.5px solid #57A3FF;
   border-radius: 10px;
   margin-top: 2rem;
   padding: 1.5rem;
 }
 
-.skill_section_one h3{
+.skill_section h3{
   width: auto;
   font-size: 17px;
   font-family: "Zen Antique Soft", serif;
@@ -354,63 +355,18 @@ section#home p{
   padding-right: .20rem;
 }
 
-.tittle_programminglanguage{
+.tittle_skill{
   display: flex;
 }
 
-.programminglanguage_attributes{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.programminglanguage_attributes span{
-  font-family: "Zen Antique Soft", serif;
-  font-size: 14px;
-  color:#c6c8ca;
-  border-radius: 10px;
-  border: 0.5px solid #57A3FF;
-  /* espaçamento ao redor do texto */
-  padding-top: .35rem;
-  padding-bottom: .35rem;
-  padding-left: .75rem;
-  padding-right: .75rem;
-}
-
-
-
-/* FrontEnd Developer SKILLS */
-.skill_section_two{
-  border: 0.5px solid #57A3FF;
-  border-radius: 10px;
-  margin-top: 2rem;
-  padding: 1.5rem;
-}
-
-.skill_section_two h3{
-  width: auto;
-  font-size: 17px;
-  font-family: "Zen Antique Soft", serif;
-/* espaçamento ao redor do texto */
-  padding-top: .50rem;
-  padding-bottom: .50rem;
-  padding-left: .20rem;
-  padding-right: .20rem;
-}
-
-.tittle_frontend_dev{
-  display: flex;
-}
-
-.frontend_dev_attributes{
+.skill_attributes{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 20px;
 }
 
-.frontend_dev_attributes span{
+.skill_attributes span{
   font-family: "Zen Antique Soft", serif;
   font-size: 14px;
   color:#c6c8ca;
@@ -423,14 +379,6 @@ section#home p{
   padding-left: .75rem;
   padding-right: .75rem;
 }
-
-
-
-/* BACK END -  */
-
-
-
-
 /* End Div Skills */
 
 
@@ -456,36 +404,28 @@ section#home p{
 }
 
 /* Contact Forms */
-fieldset{
+.form_contact{
   margin-top: 2rem;
-  border-color: #0c1836;
+  border: 0.5px solid #57A3FF;
+  border-color: #1e52d6;
   border-radius: 10px;
-  padding: 5rem;
+  padding: 2rem;
   font-size: 15px
 }
 
 .form_content{
-  display: flex;
   box-sizing: border-box;
+  display: grid;
+  padding: 0.5rem;
 }
 
 .form_content label{
   color: rgb(192, 191, 191);
-}
-
-.form_content_1 input{
-  background-color: #020817;
-  border-color: #0270FF;
-  border-radius: 5px;
   font-family: "Zen Atique Soft", serif;
-  font-size: 15px;
-  color: rgb(192, 191, 191);;
-  margin: 0.5rem;
-  padding: 10px;
-  width: auto;
+
 }
 
-.form_content_2 input{
+.form_content input{
   background-color: #020817;
   border-color: #0270FF;
   border-radius: 5px;
@@ -499,6 +439,18 @@ fieldset{
 .form_contact textarea{
   background-color: #020817;
   border-color:#0270FF;
+  border-radius: 10px;
+}
+
+.form_button{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.button_send_message{
+  background-color: #0270FF;
+  padding: 1rem;
+  width: 100%;
   border-radius: 10px;
 }
 
