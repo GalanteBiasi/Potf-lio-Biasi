@@ -449,10 +449,12 @@ section#home p{
 
 .button_send_message{
   color: #000000;
+  font-weight: bold;
   font-family: "Zen Atique Soft", serif;
   background-color: #0270FF;
   padding: 1rem;
   width: 100%;
+  border-color: #1e52d6;;
   border-radius: 10px;
 }
 

@@ -41,13 +41,9 @@ main{
 }
 
 
+
 /* Menu de Navegação */
-.desktop_menu{
-  flex-direction: row;
-  background: rgba(2, 8, 23, 0.9);
- 
-  width: 100%;
-}
+
 
 .desktop_menu {
   font-family: 'Jaro', sans-serif;
